@@ -1,26 +1,66 @@
 @import "tailwindcss";
+@import "./jim-shared.css";
+@import "./jim-page.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+::selection {
+  background-color: #FF5C19;
+  color: #1A0000;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html, body {
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite reverse;
+}
+
+[marquee="gradient"] {
+  background: linear-gradient(90deg, #ffffff 9.38%, rgba(255, 255, 255, 0) 73.72%);
+}
+
+[feature="overlay"] {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+[cascading-glass] {
+  backdrop-filter: blur(20px);
+  box-shadow:
+    -0.5px -0.5px 1px 0px #ffffff66 inset,
+    0.5px 0.5px 0px 0px #ffffff66 inset,
+    0px 4px 4px 0px #0000001a inset,
+    0px -4px 10px 0px #0000001a inset;
+}
+
+[nav="backdrop"] {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow:
+    -0.5px -0.5px 1px 0px #ffffff66 inset,
+    0.5px 0.5px 0px 0px #ffffff66 inset,
+    0px 4px 4px 0px #0000001a inset,
+    0px -4px 10px 0px #0000001a inset;
 }

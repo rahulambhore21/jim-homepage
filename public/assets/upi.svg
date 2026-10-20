@@ -1,0 +1,8 @@
+<svg width="48" height="28" viewBox="0 0 48 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- UPI Logo Vector -->
+  <path d="M18.5 4L13.5 24H18.5L23.5 4H18.5Z" fill="#097939"/>
+  <path d="M25.5 4L20.5 24H25.5L30.5 4H25.5Z" fill="#ED7524"/>
+  <path d="M10 8H4V18C4 19.1 4.9 20 6 20H10V8Z" fill="#2E3192"/>
+  <path d="M34 8V16C34 18.2 35.8 20 38 20H44V8H34ZM40 16H38V12H40V16Z" fill="#2E3192"/>
+  <text x="2" y="26" font-family="Arial, sans-serif" font-size="7" font-weight="900" fill="#2E3192" letter-spacing="1">UPI</text>
+</svg>

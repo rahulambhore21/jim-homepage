@@ -1,0 +1,10 @@
+<svg width="60" height="24" viewBox="0 0 60 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 5H13C15.2 5 17 6.8 17 9C17 11.2 15.2 13 13 13H8V19H4V5ZM8 9.5H12.5C12.8 9.5 13 9.3 13 9C13 8.7 12.8 8.5 12.5 8.5H8V9.5Z" fill="#097939"/>
+  <path d="M13 13L17.5 19H22L17.2 12.5C16 13 14.5 13.2 13 13Z" fill="#097939"/>
+  <path d="M24 19H28V11H24V19ZM24 7H28V9H24V7Z" fill="#097939"/>
+  <path d="M44 5L36 19H41L45.5 11.2L50 19H55L47 5H44Z" fill="#ED7524"/>
+  <polygon points="52,5 48,12 56,12" fill="#ED7524"/>
+  <text x="3" y="23" font-family="system-ui, -apple-system, sans-serif" font-size="6" font-weight="900" fill="#097939" font-style="italic">RuPay</text>
+  <polygon points="34,7 40,7 37,13" fill="#005BAA"/>
+  <polygon points="38,13 44,13 41,19" fill="#ED7524"/>
+</svg>
